@@ -1,0 +1,8 @@
+[package]
+name = "interning"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+hashbrown = {version = "0.14", features = ["raw"]}
+allocator-api2 = "0.2"
